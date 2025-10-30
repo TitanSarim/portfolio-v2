@@ -1,17 +1,17 @@
-'use client';
-import React, { useEffect, useLayoutEffect } from 'react';
-import { gsap } from 'gsap';
-import loadBackgroudImages from '@/common/loadBackgroudImages';
-import Link from 'next/link';
+"use client";
+import React, { useEffect, useLayoutEffect } from "react";
+import { gsap } from "gsap";
+import loadBackgroudImages from "@/common/loadBackgroudImages";
+import Link from "next/link";
 function Header() {
   useLayoutEffect(() => {
     const tl = gsap.timeline();
-    tl.fromTo('.header', { y: 200 }, { y: 0 }, '+=2.5');
+    tl.fromTo(".header", { y: 200 }, { y: 0 }, "+=2.5");
     tl.fromTo(
-      '.header .container',
+      ".header .container",
       { opacity: 0, translateY: 40 },
       { opacity: 1, translateY: 0 },
-      '-=0'
+      "-=0"
     );
 
     return () => tl.kill();
@@ -22,7 +22,7 @@ function Header() {
   return (
     <div
       className="header header-personal valign bg-img"
-      data-background="/assets/imgs/header/p0.jpg"
+      data-background="/assets/imgs/header/sarim_p0.png"
       data-overlay-dark="2"
     >
       <div className="container ontop">
@@ -30,9 +30,19 @@ function Header() {
           <div className="col-lg-7">
             <div className="caption">
               <h6 className="mb-15">
-                <span className="icon-img-30 mr-10">
-                  <img src="/assets/imgs/header/hi.png" alt="" />
-                </span>{' '}
+                <span
+                  className="icon-img-30 mr-10"
+                  style={{
+                    display: "inline-block",
+                    transform: "translateY(-3px)",
+                  }}
+                >
+                  <img
+                    src="/assets/imgs/header/hi.png"
+                    alt=""
+                    style={{ width: "22px", height: "22px" }}
+                  />
+                </span>{" "}
                 Hello! there
               </h6>
               <h1 className="fw-700 mb-10">
@@ -69,15 +79,15 @@ function Header() {
         <div className="info d-flex align-items-center justify-content-end mt-100">
           <div className="item">
             <h6 className="sub-title mb-10">Email :</h6>
-            <span className="p-color">Me@msarim.me</span>
+            <span className="p-color">Sarimxahid123@gmail.com</span>
           </div>
           <div className="item">
             <h6 className="sub-title mb-10">Phone :</h6>
-            <span className="p-color">+92 310 672 787 4 </span>
+            <span className="p-color">+966 5996 47591</span>
           </div>
           <div className="item">
             <h6 className="sub-title mb-10">Address :</h6>
-            <span className="p-color">Lahore, Pakistan</span>
+            <span className="p-color">Riyadh, KSA</span>
           </div>
         </div>
       </div>

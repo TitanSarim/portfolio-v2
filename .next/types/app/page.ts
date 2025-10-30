@@ -1,4 +1,4 @@
-// File: C:\Users\sarim\OneDrive\Desktop\Main_Files\webfolio-nextjs\app\page.js
+// File: F:\My Projects\portfolio-v2\app\page.js
 import * as entry from '../../../app/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

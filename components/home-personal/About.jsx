@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 function About() {
   return (
@@ -8,7 +8,7 @@ function About() {
           <div className="col-lg-5 valign">
             <div className="profile-img">
               <div className="img">
-                <img src="/assets/imgs/header/p2.jpg" alt="" />
+                <img src="/assets/imgs/header/sarim ai image.png" alt="" />
               </div>
               <span className="icon">
                 <img src="/assets/imgs/resume/icon1.png" alt="" />
@@ -29,17 +29,14 @@ function About() {
               <h6 className="sub-title main-color mb-30">About Me</h6>
               <div className="text">
                 <h4 className="mb-30">
-                  I&apos;m{' '}
-                  <span className="fw-200">
-                    Full Stack Developer
-                  </span>{' '}
-                  from Lahore, Pakistan, working in web development and print
-                  media.
+                  I&apos;m <span className="fw-200">Full Stack Developer</span>{" "}
+                  from Riyadh, Saudi Arabia, working in software development
                 </h4>
                 <p>
-                  I enjoy turning complex problems into efficient, scalable, and user-friendly solutions. 
-                  My aim is to bring your vision to life through innovative development. 
-                  I've built web applications for many well-known brands.
+                  I enjoy turning complex problems into efficient, scalable, and
+                  user-friendly solutions. My aim is to bring your vision to
+                  life through innovative development. I&apos;ve built web
+                  applications for many well-known brands.
                 </p>
 
                 <div className="numbers mt-50">

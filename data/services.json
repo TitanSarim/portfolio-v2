@@ -1,26 +1,20 @@
 [
   {
-    "title": "Digital Product Design",
-    "img": "/assets/imgs/serv-icons/3.png",
-    "desc": "Live workshop where we define the main problems and challenges before building a strategic plan moving forward.",
-    "link": "/page-services-details"
-  },
-  {
-    "title": "Web Developments",
+    "title": "Web Development",
     "img": "/assets/imgs/serv-icons/4.png",
-    "desc": "Live workshop where we define the main problems and challenges before building a strategic plan moving forward.",
+    "desc": "Next.js, React and Node/Nest APIs with SSR, SEO, and high performance.",
     "link": "/page-services-details"
   },
   {
-    "title": "Branding Design",
-    "img": "/assets/imgs/serv-icons/5.png",
-    "desc": "Live workshop where we define the main problems and challenges before building a strategic plan moving forward.",
+    "title": "App Development",
+    "img": "/assets/imgs/serv-icons/3.png",
+    "desc": "Cross‑platform React Native/Expo apps with real‑time features and auth.",
     "link": "/page-services-details"
   },
   {
-    "title": "UI-UX Design",
+    "title": "DevOps & Cloud",
     "img": "/assets/imgs/serv-icons/5.png",
-    "desc": "Live workshop where we define the main problems and challenges before building a strategic plan moving forward.",
+    "desc": "AWS/Azure, Docker, CI/CD, Terraform, Kubernetes, monitoring and reliability.",
     "link": "/page-services-details"
   }
 ]

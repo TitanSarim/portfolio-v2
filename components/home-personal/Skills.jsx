@@ -1,4 +1,5 @@
-import React from 'react';
+import React from "react";
+import Image from "next/image";
 
 function Skills() {
   return (
@@ -8,7 +9,7 @@ function Skills() {
           <div className="col-lg-6 col-md-10">
             <div className="sec-head text-center mb-80">
               <h3>
-                We&apos;re proud to work with <br />a
+                I&apos;m proud to work with <br />a
                 <span className="opacity-7">diverse range of companies.</span>
               </h3>
             </div>
@@ -19,66 +20,112 @@ function Skills() {
             <div className="item mb-30">
               <div className="box-bord">
                 <div className="img">
-                  <img src="/assets/imgs/resume/s1.png" alt="" />
+                  <Image
+                    src="https://cdn.simpleicons.org/react/61DAFB"
+                    alt="React"
+                    width={64}
+                    height={64}
+                  />
                 </div>
                 <span className="value">95%</span>
               </div>
-              <h6 className="fz-18">UI / UX Design</h6>
+              <h6 className="fz-18">React</h6>
             </div>
           </div>
           <div className="col-lg-2 col-md-4 col-6">
             <div className="item mb-30">
               <div className="box-bord">
                 <div className="img">
-                  <img src="/assets/imgs/resume/s2.png" alt="" />
+                  <Image
+                    src="https://cdn.simpleicons.org/nextdotjs/FFFFFF"
+                    alt="Next.js"
+                    width={64}
+                    height={64}
+                  />
+                </div>
+                <span className="value">93%</span>
+              </div>
+              <h6 className="fz-18">Next.js</h6>
+            </div>
+          </div>
+          <div className="col-lg-2 col-md-4 col-6">
+            <div className="item mb-30">
+              <div className="box-bord">
+                <div className="img">
+                  <Image
+                    src="https://cdn.simpleicons.org/nodedotjs/339933"
+                    alt="Node.js"
+                    width={64}
+                    height={64}
+                  />
+                </div>
+                <span className="value">92%</span>
+              </div>
+              <h6 className="fz-18">Node.js</h6>
+            </div>
+          </div>
+          <div className="col-lg-2 col-md-4 col-6">
+            <div className="item mb-30">
+              <div className="box-bord">
+                <div className="img">
+                  <Image
+                    src="https://cdn.simpleicons.org/nestjs/E0234E"
+                    alt="NestJS"
+                    width={64}
+                    height={64}
+                  />
                 </div>
                 <span className="value">90%</span>
               </div>
-              <h6 className="fz-18">Development</h6>
+              <h6 className="fz-18">NestJS</h6>
             </div>
           </div>
           <div className="col-lg-2 col-md-4 col-6">
             <div className="item mb-30">
               <div className="box-bord">
                 <div className="img">
-                  <img src="/assets/imgs/resume/s3.png" alt="" />
+                  <Image
+                    src="https://cdn.simpleicons.org/react/61DAFB"
+                    alt="React Native"
+                    width={64}
+                    height={64}
+                  />
                 </div>
-                <span className="value">85%</span>
+                <span className="value">88%</span>
               </div>
-              <h6 className="fz-18">Graphic Design</h6>
+              <h6 className="fz-18">React Native</h6>
             </div>
           </div>
           <div className="col-lg-2 col-md-4 col-6">
             <div className="item mb-30">
               <div className="box-bord">
                 <div className="img">
-                  <img src="/assets/imgs/resume/s5.png" alt="" />
+                  <Image
+                    src="https://cdn.simpleicons.org/jenkins/D24939"
+                    alt="DevOps & CI/CD (Jenkins)"
+                    width={64}
+                    height={64}
+                  />
                 </div>
-                <span className="value">84%</span>
+                <span className="value">89%</span>
               </div>
-              <h6 className="fz-18">Sketch</h6>
+              <h6 className="fz-18">DevOps & CI/CD</h6>
             </div>
           </div>
           <div className="col-lg-2 col-md-4 col-6">
             <div className="item mb-30">
               <div className="box-bord">
                 <div className="img">
-                  <img src="/assets/imgs/resume/s4.png" alt="" />
+                  <Image
+                    src="https://cdn.simpleicons.org/kubernetes/326CE5"
+                    alt="AWS & Kubernetes"
+                    width={64}
+                    height={64}
+                  />
                 </div>
-                <span className="value">78%</span>
+                <span className="value">87%</span>
               </div>
-              <h6 className="fz-18">WordPress</h6>
-            </div>
-          </div>
-          <div className="col-lg-2 col-md-4 col-6">
-            <div className="item mb-30">
-              <div className="box-bord">
-                <div className="img">
-                  <img src="/assets/imgs/resume/s6.png" alt="" />
-                </div>
-                <span className="value">85%</span>
-              </div>
-              <h6 className="fz-18">Graphic Design</h6>
+              <h6 className="fz-18">AWS & Kubernetes</h6>
             </div>
           </div>
         </div>

@@ -1,5 +1,5 @@
-import Link from 'next/link';
-import React from 'react';
+import Link from "next/link";
+import React from "react";
 
 function Services() {
   return (
@@ -8,7 +8,7 @@ function Services() {
         <div className="sec-head mb-80">
           <div className="d-flex align-items-center">
             <div>
-              <span className="sub-title main-color mb-5">Our Specialize</span>
+              <span className="sub-title main-color mb-5">My Specialize</span>
               <h3 className="fw-600 fz-50 text-u d-rotate wow">
                 <span className="rotate-text">
                   Featured <span className="fw-200">Services.</span>
@@ -30,43 +30,45 @@ function Services() {
           <div className="col-lg-4">
             <div className="item sub-bg md-mb30">
               <div className="icon-img-60 opacity-5 mb-40">
-                <img src="/assets/imgs/serv-icons/3.png" alt="" />
+                <img src="/assets/imgs/serv-icons/4.png" alt="" />
               </div>
-              <h5>UI/UX Design</h5>
+              <h5>Web Development</h5>
               <div className="text mt-40">
                 <div className="mb-10">
-                  <span className="tag">UI/UX</span>
-                  <span className="tag">Development</span>
+                  <span className="tag">Next.js</span>
+                  <span className="tag">React</span>
+                  <span className="tag">Node/Nest</span>
                 </div>
                 <p>
-                  We always ensure that it combines a clean and beautiful visual
-                  design.
+                  High‑performance websites with SSR, SEO, and scalable
+                  REST/GraphQL APIs.
                 </p>
               </div>
-              <Link href='' className="mt-40">
+              {/* <Link href="" className="mt-40">
                 <span className="ti-arrow-top-right"></span>
-              </Link>
+              </Link> */}
             </div>
           </div>
           <div className="col-lg-4">
             <div className="item sub-bg md-mb30">
               <div className="icon-img-60 opacity-5 mb-40">
-                <img src="/assets/imgs/serv-icons/4.png" alt="" />
+                <img src="/assets/imgs/serv-icons/3.png" alt="" />
               </div>
-              <h5>Brand Strategy</h5>
+              <h5>App Development</h5>
               <div className="text mt-40">
                 <div className="mb-10">
-                  <span className="tag">UI/UX</span>
-                  <span className="tag">Development</span>
+                  <span className="tag">React Native</span>
+                  <span className="tag">Expo</span>
+                  <span className="tag">Realtime</span>
                 </div>
                 <p>
-                  We always ensure that it combines a clean and beautiful visual
-                  design.
+                  Cross‑platform mobile apps with smooth UX, secure auth, and
+                  realtime chat.
                 </p>
               </div>
-              <Link href='' className="mt-40">
+              {/* <Link href="" className="mt-40">
                 <span className="ti-arrow-top-right"></span>
-              </Link>
+              </Link> */}
             </div>
           </div>
           <div className="col-lg-4">
@@ -74,20 +76,21 @@ function Services() {
               <div className="icon-img-60 opacity-5 mb-40">
                 <img src="/assets/imgs/serv-icons/5.png" alt="" />
               </div>
-              <h5>SEO / Marketing</h5>
+              <h5>DevOps & Cloud</h5>
               <div className="text mt-40">
                 <div className="mb-10">
-                  <span className="tag">UI/UX</span>
-                  <span className="tag">Development</span>
+                  <span className="tag">AWS/Azure</span>
+                  <span className="tag">CI/CD</span>
+                  <span className="tag">Docker/K8s</span>
                 </div>
                 <p>
-                  We always ensure that it combines a clean and beautiful visual
-                  design.
+                  Infrastructure, deployments, and monitoring with Terraform,
+                  Docker, and Kubernetes.
                 </p>
               </div>
-              <Link href='#' className="mt-40">
+              {/* <Link href="#" className="mt-40">
                 <span className="ti-arrow-top-right"></span>
-              </Link>
+              </Link> */}
             </div>
           </div>
         </div>

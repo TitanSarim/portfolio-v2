@@ -1,6 +1,36 @@
-import React from 'react';
+"use client";
+import React from "react";
 
 function Contact() {
+  async function handleSubmit(e) {
+    e.preventDefault();
+    const form = e.currentTarget;
+    const formData = new FormData(form);
+    const payload = Object.fromEntries(formData.entries());
+    try {
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload),
+      });
+      const data = await res.json();
+      const msgEl = document.querySelector("#contact-form .messages");
+      if (data.ok) {
+        if (msgEl)
+          msgEl.innerHTML = '<p class="success">Message sent successfully.</p>';
+        form.reset();
+      } else {
+        if (msgEl)
+          msgEl.innerHTML =
+            '<p class="error">Failed to send. Please try again.</p>';
+      }
+    } catch (err) {
+      const msgEl = document.querySelector("#contact-form .messages");
+      if (msgEl)
+        msgEl.innerHTML =
+          '<p class="error">Unexpected error. Please try later.</p>';
+    }
+  }
   return (
     <section id="contact" className="contact section-padding">
       <div className="container">
@@ -8,22 +38,22 @@ function Contact() {
           <div className="col-lg-4 valign">
             <div className="sec-head info-box full-width md-mb80">
               <div className="phone fz-30 fw-600 underline main-color">
-                <a href="#0">+92 310 6727 874</a>
+                <a href="#0">+966 5996 47591</a>
               </div>
               <div className="morinfo mt-50 pb-30 bord-thin-bottom">
                 <h6 className="mb-15">Address</h6>
-                <p>Lahore, Pakistan</p>
+                <p>Riyadh, KSA</p>
               </div>
               <div className="morinfo mt-30 pb-30 bord-thin-bottom">
                 <h6 className="mb-15">Email</h6>
-                <p>Me@msarim.me</p>
+                <p>Sarimxahid123@gmail.com</p>
               </div>
 
               <div className="social-icon mt-50">
                 <a href="linkedin.com/in/muhammad-sarim-679576212/">
                   <i className="fab fa-linkedin"></i>
                 </a>
-                <a href="https://www.instagram.com/sarim2696/" >
+                <a href="https://www.instagram.com/sarim2696/">
                   <i className="fab fa-instagram"></i>
                 </a>
               </div>
@@ -37,12 +67,7 @@ function Contact() {
                   Send a <span className="fw-200">message</span>
                 </h3>
               </div>
-              <form
-                id="contact-form"
-                className="form2"
-                method="post"
-                action="contact.php"
-              >
+              <form id="contact-form" className="form2" onSubmit={handleSubmit}>
                 <div className="messages"></div>
 
                 <div className="controls row">
