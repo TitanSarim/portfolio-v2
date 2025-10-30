@@ -1,14 +1,12 @@
-import React from 'react';
+import React from "react";
 
 function Marq() {
   const items = [
-    'Web Design',
-    'Web Development',
-    'Blockchain Development',
-    'Rust Development',
-    'Devops Development',
-    'Frontend Development',
-    'Backend Development',
+    "Web Design",
+    "Web Development",
+    "Devops Development",
+    "Frontend Development",
+    "Backend Development",
   ];
   return (
     <section className="marq">
