@@ -29,14 +29,17 @@ function About() {
               <h6 className="sub-title main-color mb-30">About Me</h6>
               <div className="text">
                 <h4 className="mb-30">
-                  I&apos;m <span className="fw-200">Full Stack Developer</span>{" "}
-                  from Riyadh, Saudi Arabia, working in software development
+                  I&apos;m a <span className="fw-200">Software Engineer</span>{" "}
+                  from Riyadh, Saudi Arabia, currently working in software
+                  development
                 </h4>
                 <p>
-                  I enjoy turning complex problems into efficient, scalable, and
-                  user-friendly solutions. My aim is to bring your vision to
-                  life through innovative development. I&apos;ve built web
-                  applications for many well-known brands.
+                  I specialize in transforming complex challenges into
+                  efficient, scalable, and user-friendly solutions. With a
+                  passion for innovative development, I&apos;ve successfully
+                  delivered web and mobile applications for various clients,
+                  from startups to established companies, helping them achieve
+                  their business goals through cutting-edge technology.
                 </p>
 
                 <div className="numbers mt-50">
@@ -59,7 +62,7 @@ function About() {
                     <div className="col-md-6">
                       <div className="item bord-thin-top pt-30 d-flex align-items-end mt-20">
                         <div>
-                          <h3 className="fw-300 mb-10">320</h3>
+                          <h3 className="fw-300 mb-10">100+</h3>
                           <h6 className="p-color sub-title">
                             Projects Completed
                           </h6>

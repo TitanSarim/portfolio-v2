@@ -128,6 +128,70 @@ function Skills() {
               <h6 className="fz-18">AWS & Kubernetes</h6>
             </div>
           </div>
+          <div className="col-lg-2 col-md-4 col-6">
+            <div className="item mb-30">
+              <div className="box-bord">
+                <div className="img">
+                  <Image
+                    src="https://cdn.simpleicons.org/apachekafka/231F20"
+                    alt="Kafka"
+                    width={64}
+                    height={64}
+                  />
+                </div>
+                <span className="value">88%</span>
+              </div>
+              <h6 className="fz-18">Kafka</h6>
+            </div>
+          </div>
+          <div className="col-lg-2 col-md-4 col-6">
+            <div className="item mb-30">
+              <div className="box-bord">
+                <div className="img">
+                  <Image
+                    src="https://cdn.simpleicons.org/redis/DC382D"
+                    alt="Redis"
+                    width={64}
+                    height={64}
+                  />
+                </div>
+                <span className="value">91%</span>
+              </div>
+              <h6 className="fz-18">Redis</h6>
+            </div>
+          </div>
+          <div className="col-lg-2 col-md-4 col-6">
+            <div className="item mb-30">
+              <div className="box-bord">
+                <div className="img">
+                  <Image
+                    src="https://cdn.simpleicons.org/postgresql/4169E1"
+                    alt="Databases"
+                    width={64}
+                    height={64}
+                  />
+                </div>
+                <span className="value">90%</span>
+              </div>
+              <h6 className="fz-18">Databases</h6>
+            </div>
+          </div>
+          <div className="col-lg-2 col-md-4 col-6">
+            <div className="item mb-30">
+              <div className="box-bord">
+                <div className="img">
+                  <Image
+                    src="https://cdn.simpleicons.org/docker/2496ED"
+                    alt="Microservices"
+                    width={64}
+                    height={64}
+                  />
+                </div>
+                <span className="value">89%</span>
+              </div>
+              <h6 className="fz-18">Microservices</h6>
+            </div>
+          </div>
         </div>
       </div>
     </section>

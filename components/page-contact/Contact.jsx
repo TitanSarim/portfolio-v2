@@ -1,12 +1,20 @@
 "use client";
-import React from "react";
+import React, { useState } from "react";
 
 function Contact() {
+  const [isLoading, setIsLoading] = useState(false);
+
   async function handleSubmit(e) {
     e.preventDefault();
+    setIsLoading(true);
     const form = e.currentTarget;
     const formData = new FormData(form);
     const payload = Object.fromEntries(formData.entries());
+    const msgEl = document.querySelector("#contact-form .messages");
+
+    // Clear previous messages
+    if (msgEl) msgEl.innerHTML = "";
+
     try {
       const res = await fetch("/api/contact", {
         method: "POST",
@@ -14,7 +22,6 @@ function Contact() {
         body: JSON.stringify(payload),
       });
       const data = await res.json();
-      const msgEl = document.querySelector("#contact-form .messages");
       if (data.ok) {
         if (msgEl)
           msgEl.innerHTML = '<p class="success">Message sent successfully.</p>';
@@ -25,10 +32,11 @@ function Contact() {
             '<p class="error">Failed to send. Please try again.</p>';
       }
     } catch (err) {
-      const msgEl = document.querySelector("#contact-form .messages");
       if (msgEl)
         msgEl.innerHTML =
           '<p class="error">Unexpected error. Please try later.</p>';
+    } finally {
+      setIsLoading(false);
     }
   }
   return (
@@ -79,6 +87,7 @@ function Contact() {
                         name="name"
                         placeholder="Name"
                         required="required"
+                        disabled={isLoading}
                       />
                     </div>
                   </div>
@@ -91,6 +100,7 @@ function Contact() {
                         name="email"
                         placeholder="Email"
                         required="required"
+                        disabled={isLoading}
                       />
                     </div>
                   </div>
@@ -102,6 +112,7 @@ function Contact() {
                         type="text"
                         name="subject"
                         placeholder="Subject"
+                        disabled={isLoading}
                       />
                     </div>
                   </div>
@@ -114,14 +125,22 @@ function Contact() {
                         placeholder="Message"
                         rows="4"
                         required="required"
+                        disabled={isLoading}
                       ></textarea>
                     </div>
                     <div className="mt-30">
                       <button
                         type="submit"
                         className="butn butn-full butn-bord radius-30"
+                        disabled={isLoading}
+                        style={{
+                          opacity: isLoading ? 0.6 : 1,
+                          cursor: isLoading ? "not-allowed" : "pointer",
+                        }}
                       >
-                        <span className="text">Let&lsquo;s Talk</span>
+                        <span className="text">
+                          {isLoading ? "Sending..." : "Let's Talk"}
+                        </span>
                       </button>
                     </div>
                   </div>

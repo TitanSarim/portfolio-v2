@@ -106,8 +106,34 @@ function Portfolio() {
                 </div>
               </div>
               <div className="col-lg-7">
-                <div className="img">
-                  <img src="/assets/imgs/works/1/1.jpg" alt="" />
+                <div className="img gallery-carousel">
+                  <div className="gallery-track">
+                    <img
+                      src="/assets/imgs/works/barbunny/barbunny-1.png"
+                      alt="Barbunny App Screenshot 1"
+                    />
+                    <img
+                      src="/assets/imgs/works/barbunny/barbunny-2.png"
+                      alt="Barbunny App Screenshot 2"
+                    />
+                    <img
+                      src="/assets/imgs/works/barbunny/barbunny-3.png"
+                      alt="Barbunny App Screenshot 3"
+                    />
+                    <img
+                      src="/assets/imgs/works/barbunny/barbunny-4.png"
+                      alt="Barbunny App Screenshot 4"
+                    />
+                    {/* Duplicate for seamless loop */}
+                    <img
+                      src="/assets/imgs/works/barbunny/barbunny-1.png"
+                      alt="Barbunny App Screenshot 1"
+                    />
+                    <img
+                      src="/assets/imgs/works/barbunny/barbunny-2.png"
+                      alt="Barbunny App Screenshot 2"
+                    />
+                  </div>
                 </div>
               </div>
             </div>
@@ -145,8 +171,34 @@ function Portfolio() {
                 </div>
               </div>
               <div className="col-lg-7">
-                <div className="img">
-                  <img src="/assets/imgs/works/1/2.jpg" alt="" />
+                <div className="img gallery-carousel">
+                  <div className="gallery-track">
+                    <img
+                      src="/assets/imgs/works/aishop/ai-shop-solution.png"
+                      alt="AI Shop Solution Screenshot 1"
+                    />
+                    <img
+                      src="/assets/imgs/works/aishop/ai-shop-solution-2.png"
+                      alt="AI Shop Solution Screenshot 2"
+                    />
+                    <img
+                      src="/assets/imgs/works/aishop/ai-shop-solution-3.png"
+                      alt="AI Shop Solution Screenshot 3"
+                    />
+                    <img
+                      src="/assets/imgs/works/aishop/ai-shop-solution-4.png"
+                      alt="AI Shop Solution Screenshot 4"
+                    />
+                    {/* Duplicate for seamless loop */}
+                    <img
+                      src="/assets/imgs/works/aishop/ai-shop-solution.png"
+                      alt="AI Shop Solution Screenshot 1"
+                    />
+                    <img
+                      src="/assets/imgs/works/aishop/ai-shop-solution-2.png"
+                      alt="AI Shop Solution Screenshot 2"
+                    />
+                  </div>
                 </div>
               </div>
             </div>
@@ -183,8 +235,18 @@ function Portfolio() {
                 </div>
               </div>
               <div className="col-lg-7">
-                <div className="img">
-                  <img src="/assets/imgs/works/1/3.jpg" alt="" />
+                <div className="img gallery-carousel">
+                  <div className="gallery-track">
+                    <img
+                      src="/assets/imgs/works/jetolink/Jetolink.png"
+                      alt="Jetolink Portal"
+                    />
+                    {/* Duplicate for seamless loop */}
+                    <img
+                      src="/assets/imgs/works/jetolink/Jetolink.png"
+                      alt="Jetolink Portal"
+                    />
+                  </div>
                 </div>
               </div>
             </div>
@@ -222,8 +284,26 @@ function Portfolio() {
                 </div>
               </div>
               <div className="col-lg-7">
-                <div className="img">
-                  <img src="/assets/imgs/works/1/4.jpg" alt="" />
+                <div className="img gallery-carousel">
+                  <div className="gallery-track">
+                    <img
+                      src="/assets/imgs/works/travelcation/1.png"
+                      alt="Travelcation Platform Screenshot 1"
+                    />
+                    <img
+                      src="/assets/imgs/works/travelcation/2.png"
+                      alt="Travelcation Platform Screenshot 2"
+                    />
+                    {/* Duplicate for seamless loop */}
+                    <img
+                      src="/assets/imgs/works/travelcation/1.png"
+                      alt="Travelcation Platform Screenshot 1"
+                    />
+                    <img
+                      src="/assets/imgs/works/travelcation/2.png"
+                      alt="Travelcation Platform Screenshot 2"
+                    />
+                  </div>
                 </div>
               </div>
             </div>
@@ -261,8 +341,34 @@ function Portfolio() {
                 </div>
               </div>
               <div className="col-lg-7">
-                <div className="img">
-                  <img src="/assets/imgs/works/1/5.jpg" alt="" />
+                <div className="img gallery-carousel">
+                  <div className="gallery-track">
+                    <img
+                      src="/assets/imgs/works/kupi/1.png"
+                      alt="Kupi Ticketing Screenshot 1"
+                    />
+                    <img
+                      src="/assets/imgs/works/kupi/2.png"
+                      alt="Kupi Ticketing Screenshot 2"
+                    />
+                    <img
+                      src="/assets/imgs/works/kupi/3.png"
+                      alt="Kupi Ticketing Screenshot 3"
+                    />
+                    <img
+                      src="/assets/imgs/works/kupi/4.png"
+                      alt="Kupi Ticketing Screenshot 4"
+                    />
+                    {/* Duplicate for seamless loop */}
+                    <img
+                      src="/assets/imgs/works/kupi/1.png"
+                      alt="Kupi Ticketing Screenshot 1"
+                    />
+                    <img
+                      src="/assets/imgs/works/kupi/2.png"
+                      alt="Kupi Ticketing Screenshot 2"
+                    />
+                  </div>
                 </div>
               </div>
             </div>

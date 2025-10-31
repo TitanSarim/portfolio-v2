@@ -48,7 +48,7 @@ function Header() {
               <h1 className="fw-700 mb-10">
                 I&apos;m <span className="main-color">Sarim</span>
               </h1>
-              <h3>I am a software engineer</h3>
+              <h3>a software engineer</h3>
               <div className="row">
                 <div className="col-lg-9">
                   <div className="text mt-30">
